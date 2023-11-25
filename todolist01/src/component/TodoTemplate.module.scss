@@ -1,0 +1,21 @@
+.TodoTemplate {
+  width: 512px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6rem;
+  border-radius: 4px;
+  overflow: hidden;
+  .title {
+    background-color: rgb(108, 158, 125);
+    color: rgb(247, 246, 245);
+    height: 6rem;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s background ease-in;
+  }
+  .content {
+    background-color: corgb(238, 178, 156);
+  }
+}

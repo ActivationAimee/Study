@@ -1,0 +1,37 @@
+.categories {
+  display: flex;
+  padding: 1rem;
+  margin: 0 auto;
+  width: 768px;
+}
+
+@media screen and(max-width:769px) {
+  div {
+    width: 100%;
+    overflow-x: auto;
+  }
+}
+
+.category {
+  font-size: 1.39rem;
+  cursor: pointer;
+  white-space: pre;
+  text-decoration: none;
+  color: inherit;
+  padding-bottom: 0.25rem;
+  margin-left: 1rem;
+}
+
+.category p:hover {
+  color: red;
+}
+
+.box1 {
+  margin: 1rem;
+  padding-top: 0.5rem;
+  float: right;
+}
+.input01 {
+  height: 25px;
+  width: 8rem;
+}
